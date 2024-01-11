@@ -1,13 +1,12 @@
-import './App.css';
+import React from 'react';
+import Header from "./components/header";
+import  Content  from './components/content';
 
-function App() {
-  return (
-    <div className="App">
-       <h1 className="text-5xl font-bold underline bg-blue-600 p-24 text-red-700">
-          Hello world!
-       </h1>
-    </div>
-  );
+function App(){
+  return <div><Header />
+  <Content />
+  </div>
 }
+
 
 export default App;

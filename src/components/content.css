@@ -1,0 +1,45 @@
+.bg-gradient {
+    background-image: radial-gradient(478.85% 48.14% at 50% 62.85%, #E3E3E3 0%, #D7FDF4 73.4%);
+}
+
+/* AirBnB-Light */
+
+@font-face {
+    font-family: 'AirBnB-light';
+    src: url(./fonts/AirbnbCereal_W_Lt.otf);
+  }
+
+/* AirBnB-Medium */
+
+@font-face {
+    font-family: 'AirBnB-Medium';
+    src: url(./fonts/AirbnbCereal_W_Md.otf);
+  }
+
+/* AirBnB-Bold */
+
+@font-face {
+    font-family: 'AirBnB-Bold';
+    src: url(./fonts/AirbnbCereal_W_Bd.otf);
+  }
+
+/* AirBnB-ExtraBold */
+
+@font-face {
+    font-family: 'AirBnB-ExtraBold';
+    src: url(./fonts/AirbnbCereal_W_XBd.otf);
+  }
+
+/* AirBnB-Black */
+
+@font-face {
+    font-family: 'AirBnB-Black';
+    src: url(./fonts/AirbnbCereal_W_Blk.otf);
+  }
+
+/* AirBnB-Black */
+
+@font-face {
+    font-family: 'AirBnB-Bk';
+    src: url(./fonts/AirbnbCereal_W_Bk.otf);
+  }
