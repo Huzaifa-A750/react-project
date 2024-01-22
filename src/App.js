@@ -5,6 +5,7 @@ import Card from "./components/cards";
 import TextCard from "./components/text-card"
 import Reviews from "./components/reviews";
 import Homes from "./components/homes";
+import Dropdown from "./components/dropdown"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TextCard />
       <Reviews />
       <Homes />
+      <Dropdown />
     </div>
   );
 }

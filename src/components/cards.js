@@ -23,7 +23,7 @@ export default function cards() {
       <div className="container justify-center mx-auto grid gap-y-14 lg:gap-y-0 px-8 lg:flex mt-14 gap-x-10">
         {/* Card-1 */}
 
-        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-[#5CCAAB] border-solid hover:drop-shadow-2xl hover:border-[#69f1cb]">
+        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-[#5CCAAB] border-solid hover:drop-shadow-2xl">
           <img src={Watch} alt="time-watch" className="py-10 pl-2" />
           <p className="text-[22px] text-[#3E8180] font-[AirBnB-ExtraBold] leading-[26px] pb-2">
             Get your time back
