@@ -5,7 +5,8 @@ import Card from "./components/cards";
 import TextCard from "./components/text-card"
 import Reviews from "./components/reviews";
 import Homes from "./components/homes";
-import Dropdown from "./components/dropdown"
+import Dropdown from "./components/dropdown";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Reviews />
       <Homes />
       <Dropdown />
+      <Footer />
     </div>
   );
 }
