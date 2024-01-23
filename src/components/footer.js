@@ -3,7 +3,8 @@ import Footerhouse from "./images/footerhouse.png";
 
 export default function Footer() {
   return (
-    <div className="bg-[#322C4E] pt-8 pb-2">
+    <div className=" bg-[#322C4E] pt-8 pb-2 flex justify-center">
+        <div className="container">
       <div className="grid mx-auto justify-center">
         <img src={Logofooter} alt="Footer-Logo" className="" />
       </div>
@@ -20,6 +21,7 @@ export default function Footer() {
         <div className="">
           <img src={Footerhouse} alt="footer-house" />
         </div>
+      </div>
       </div>
     </div>
   );

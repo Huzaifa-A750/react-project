@@ -3,7 +3,7 @@ import House2 from "./images/House-2.png";
 
 export default function TextCard() {
   return (
-    <div className="justify-evenly xl:justify-center lg:flex xl:gap-x-32 py-10 lg:pt-28">
+    <div className="justify-evenly xl:justify-center lg:flex xl:gap-x-32 pt-10 lg:pt-28">
       <div className="lg:justify-start justify-center grid">
         <div className="w-auto sm:w-[454px] pt-16 text-center px-4 lg:text-start">
           <h1 className="text-[#0E1532] text-[26px] font-medium leading-[39px] font-[AirBnB-Medium]">
