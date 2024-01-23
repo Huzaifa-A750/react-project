@@ -41,7 +41,7 @@ export default function Dropdown() {
   
 
   return (
-    <div className="grid justify-center md:flex md:justify-evenly bg-white py-16">
+    <div className="grid justify-center lg:flex md:justify-evenly bg-white py-16">
       <div className="">
         <div className="md:w-[454px] text-center lg:text-start">
           <h1 className="text-[#0E1532] text-[26px] font-medium leading-[39px] font-[AirBnB-Medium]">
@@ -67,7 +67,7 @@ export default function Dropdown() {
         ))}
       </div>
       </div>
-      <div className="md:-mt-20 grid justify-center">
+      <div className="lg:-mt-20 grid justify-center">
         <img src={faqhouses} alt="Houses" className="h-[350px] md:h-[400px]" />
       </div>
     </div>

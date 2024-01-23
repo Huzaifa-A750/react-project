@@ -4,7 +4,7 @@ import houses from "./images/hero_houses.png";
 export default function content() {
   return (
     <div className="bg-gradient mb-[60px]">
-      <div className="absolute pt-24 hidden md:flex">
+      <div className="absolute pt-24 hidden w-auto lg:flex">
         <img src={houses} alt="houses" />
       </div>
       <div className="justify-center grid text-center pt-20 pb-10 shadow-slate-400 shadow-md">
