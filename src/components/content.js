@@ -1,8 +1,12 @@
 import "./content.css";
+import houses from "./images/hero_houses.png";
 
 export default function content() {
   return (
     <div className="bg-gradient mb-[60px]">
+      <div className="absolute pt-24 hidden md:flex">
+        <img src={houses} alt="houses" />
+      </div>
       <div className="justify-center grid text-center pt-20 pb-10 shadow-slate-400 shadow-md">
         <p className="font-[AirBnB-ExtraBold] text-[#3E8180] text-2xl md:text-[42px] font-extrabold leading-9 md:leading-[50px]">
           Discover New Construction Homes <br /> Before They Hit The Market
