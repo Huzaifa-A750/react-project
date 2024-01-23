@@ -20,7 +20,7 @@ export default function homes() {
       </h1>
       <div className="grid xl:flex justify-center gap-x-6 gap-y-6">
         <div className="grid sm:flex gap-x-6 gap-y-6">
-          <div className="w-[279px] h-[100px] bg-white rounded-lg flex justify-center items-center hover:drop-shadow-2xl drop-shadow-md cursor-pointer">
+          <div className="w-auto sm:w-[279px] h-[100px] bg-white rounded-lg flex justify-center items-center hover:drop-shadow-2xl drop-shadow-md cursor-pointer">
             <img src={home1} alt="Home-1" className="pr-2" />
             <p className="text-base font-[AirBnB-Medium] leading-normal text-[#322C4E]">
               Condos

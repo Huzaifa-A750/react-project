@@ -23,8 +23,10 @@ export default function cards() {
       <div className="container justify-center mx-auto grid gap-y-14 lg:gap-y-0 px-8 lg:flex mt-14 gap-x-10">
         {/* Card-1 */}
 
-        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-[#5CCAAB] border-solid hover:drop-shadow-2xl">
-          <img src={Watch} alt="time-watch" className="py-10 pl-2" />
+        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-[#5CCAAB] border-solid hover:drop-shadow-2xl grid text-center md:text-start">
+          <div className="grid justify-center md:justify-start">
+            <img src={Watch} alt="time-watch" className="py-10 pl-2" />
+          </div>
           <p className="text-[22px] text-[#3E8180] font-[AirBnB-ExtraBold] leading-[26px] pb-2">
             Get your time back
           </p>
@@ -36,8 +38,10 @@ export default function cards() {
 
         {/* Card-2 */}
 
-        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-transparent hover:border-[#69f1cb] border-solid hover:drop-shadow-2xl">
-          <img src={Diamond} alt="diamond" className="py-10 pl-2" />
+        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-transparent hover:border-[#69f1cb] border-solid hover:drop-shadow-2xl grid text-center md:text-start">
+          <div className="grid justify-center md:justify-start">
+            <img src={Diamond} alt="diamond" className="py-10 pl-2" />
+          </div>
           <p className="text-[22px] text-[#3E8180] font-[AirBnB-ExtraBold] leading-[26px] pb-2">
             Be a know-it-all
           </p>
@@ -59,8 +63,10 @@ export default function cards() {
       <div className="container justify-center mx-auto grid gap-y-14 lg:gap-y-0 px-8 lg:flex mt-10 gap-x-10">
         {/* Card-1 */}
 
-        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-transparent border-solid hover:drop-shadow-2xl hover:border-[#69f1cb]">
-          <img src={Idea} alt="time-watch" className="py-10 pl-2" />
+        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-transparent border-solid hover:drop-shadow-2xl hover:border-[#69f1cb] grid text-center md:text-start">
+          <div className="grid justify-center md:justify-start">
+            <img src={Idea} alt="time-watch" className="py-10 pl-2" />
+          </div>
           <p className="text-[22px] text-[#3E8180] font-[AirBnB-ExtraBold] leading-[26px] pb-2">
             Rely on experts
           </p>
@@ -72,8 +78,10 @@ export default function cards() {
 
         {/* Card-2 */}
 
-        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-transparent border-solid hover:drop-shadow-2xl hover:border-[#69f1cb]">
-          <img src={Hall} alt="time-watch" className="py-10 pl-2" />
+        <div className="bg-white px-5 py-6 w-[365px] cursor-pointer rounded-xl border-[3px] border-transparent border-solid hover:drop-shadow-2xl hover:border-[#69f1cb] grid text-center md:text-start">
+          <div className="grid justify-center md:justify-start">
+            <img src={Hall} alt="time-watch" className="py-10 pl-2" />
+          </div>
           <p className="text-[22px] text-[#3E8180] font-[AirBnB-ExtraBold] leading-[26px] pb-2">
             Rest assured
           </p>

@@ -3,7 +3,7 @@ import Stars from "./images/Stars.png";
 export default function reviews() {
   return (
     <div className="justify-center grid lg:flex gap-x-10 gap-y-10 pb-0 lg:pb-8">
-      <div className="p-5 rounded-lg w-[468px] bg-white drop-shadow-md hover:drop-shadow-2xl cursor-pointer">
+      <div className="p-5 rounded-lg w-auto mx-4 sm:mx-0 sm:w-[468px] bg-white drop-shadow-md hover:drop-shadow-2xl cursor-pointer">
         <img src={Stars} alt="stars" />
         <p className="py-3 text-[#322C4E] text-sm font-[AirBnB-Normal] leading-[22px]">
           We bought our new home while we were still living in another state and
@@ -18,7 +18,7 @@ export default function reviews() {
           New Homeowners
         </p>
       </div>
-      <div className="p-5 rounded-lg w-[468px] bg-white drop-shadow-md cursor-pointer hover:drop-shadow-2xl">
+      <div className="p-5 rounded-lg w-auto mx-4 sm:mx-0 sm:w-[468px] bg-white drop-shadow-md cursor-pointer hover:drop-shadow-2xl">
         <img src={Stars} alt="stars" />
         <p className="py-3 text-[#322C4E] text-sm font-[AirBnB-Normal] leading-[22px]">
           I was looking for a new construction home but all of the new homes on
