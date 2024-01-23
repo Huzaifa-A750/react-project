@@ -12,10 +12,10 @@ export default function Footer() {
         <h1 className="pt-1">1-844-769-6377</h1>
       </div>
       <div className="flex justify-between px-10 mt-10">
-        <div className="flex gap-x-8 font-[AirBnB-Light] text-sm leading-normal text-white">
-          <a href="">Privacy Policy</a>
-          <a href="">Terms of Service</a>
-          <a href="">Copyright © 2022. All Rights Reserved.</a>
+        <div className="flex gap-x-8 font-[AirBnB-Light] text-sm leading-normal text-white cursor-pointer">
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+          <p>Copyright © 2022. All Rights Reserved.</p>
         </div>
         <div className="">
           <img src={Footerhouse} alt="footer-house" />
