@@ -13,9 +13,9 @@ export default function Footer() {
       </div>
       <div className="flex justify-between px-10 mt-10">
         <div className="flex gap-x-8 font-[AirBnB-Light] text-sm leading-normal text-white">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Copyright © 2022. All Rights Reserved.</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Service</a>
+          <a href="">Copyright © 2022. All Rights Reserved.</a>
         </div>
         <div className="">
           <img src={Footerhouse} alt="footer-house" />
