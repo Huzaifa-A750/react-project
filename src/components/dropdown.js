@@ -42,7 +42,7 @@ export default function Dropdown() {
 
   return (
     <div className="bg-white grid lg:justify-normal lg:flex justify-center lg:pb-16 px-8 pb-0 pt-20">
-      <div className="container justify-center lg:justify-evenly lg:flex grid">
+      <div className="container mx-auto justify-center lg:justify-evenly lg:flex grid">
       <div className="">
         <div className="md:w-[454px] text-center lg:text-start">
           <h1 className="text-[#0E1532] text-[26px] font-medium leading-[39px] font-[AirBnB-Medium]">
