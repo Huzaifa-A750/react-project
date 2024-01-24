@@ -14,9 +14,12 @@ export default function Footer() {
         </div>
         <div className="grid md:flex justify-center md:justify-between px-10 mt-10">
           <div className="grid md:flex gap-x-4 font-[AirBnB-Light] text-sm leading-normal text-white">
-            <div className="grid text-center md:flex gap-x-8 gap-y-2 pb-5 md:pb-0">
+            <div className="grid text-center md:flex gap-x-8 gap-y-2 pb-3 md:pb-0">
               <p className="cursor-pointer">Privacy Policy</p>
               <p className="cursor-pointer">Terms of Service</p>
+            </div>
+            <div className="md:hidden grid justify-center pb-4">
+              <img src={Footerhouse} alt="footer-house" />
             </div>
             <div className="border-solid border-gray-400 border-t-[1px]"></div>
             <div className="pt-5 md:pt-0">
@@ -25,7 +28,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="grid justify-center mt-0 md:-mt-4 pt-4 md:pt-0">
+          <div className="hidden md:grid justify-center mt-0 md:-mt-4 pt-4 md:pt-0">
             <img src={Footerhouse} alt="footer-house" />
           </div>
         </div>
