@@ -2,7 +2,7 @@ import Stars from "./images/Stars.png";
 
 export default function reviews() {
   return (
-    <div className="justify-center grid lg:flex gap-x-10 gap-y-10 pb-0 lg:pb-8">
+    <div className="justify-center pt-8 lg:pt-0 grid lg:flex gap-x-10 gap-y-10 pb-0 lg:pb-8 px-8 sm:px-0">
       <div className="p-5 rounded-lg w-auto mx-4 sm:mx-0 sm:w-[468px] bg-white drop-shadow-md hover:drop-shadow-2xl cursor-pointer">
         <img src={Stars} alt="stars" />
         <p className="py-3 text-[#322C4E] text-sm font-[AirBnB-Normal] leading-[22px]">

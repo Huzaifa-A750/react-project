@@ -17,7 +17,7 @@ export default function content() {
           modern way to find + buy a new construction house.
         </p>
         <div className="pt-8">
-          <button className=" rounded-md h-[55px] w-[205px] border-solid border-transparent border-2 bg-[#E87F3F] text-white font-[AirBnB-Bold] hover:tracking-wide hover:drop-shadow-2xl">
+          <button className="text-base rounded-md h-[55px] w-[205px] border-solid border-transparent border-2 bg-[#E87F3F] text-white font-[AirBnB-Bold] hover:tracking-wide hover:drop-shadow-2xl">
             Search freshbuilds
           </button>
         </div>

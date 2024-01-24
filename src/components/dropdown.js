@@ -41,13 +41,13 @@ export default function Dropdown() {
   
 
   return (
-    <div className="flex  lg:flex md:justify-evenly bg-white py-16">
-      <div className="container flex justify-center md:justify-evenly">
+    <div className="grid px-8 justify-center bg-white py-0 pt-16 lg:py-16">
+      <div className="container lg:flex grid justify-center md:justify-evenly">
       <div className="">
         <div className="md:w-[454px] text-center lg:text-start">
           <h1 className="text-[#0E1532] text-[26px] font-medium leading-[39px] font-[AirBnB-Medium]">
             Find your new home on{" "}
-            <span className="text-[#3E8180] font-bold">
+            <span className="text-[#3E8180] font-bold font-[Montserrat]">
               fresh<span className="font-normal">builds</span>
             </span>
             ?

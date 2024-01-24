@@ -62,7 +62,7 @@ export default function cards() {
 
         {/* Card-3 */}
 
-        <div className="bg-shade hover:drop-shadow-2xl cursor-pointer">
+        <div className="bg-shade hover:drop-shadow-2xl grid justify-center lg:justify-normal cursor-pointer">
           <img src={CardHouses} alt="Houses" />
         </div>
       </div>

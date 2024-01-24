@@ -3,15 +3,13 @@ import House2 from "./images/House-2.png";
 
 export default function TextCard() {
   return (
-    <div className="justify-evenly xl:justify-center lg:flex xl:gap-x-32 pt-10 lg:pt-28">
+    <div className="xl:justify-center justify-evenly grid lg:flex xl:gap-x-32 pt-0 md:pt-10 lg:pt-28 px-8 sm:px-0">
       <div className="lg:justify-start justify-center grid">
-        <div className="w-auto sm:w-[454px] pt-16 text-center px-4 lg:text-start">
+        <div className="w-auto sm:w-[454px] pt-16 md:pt-0 text-center px-4 lg:text-start">
           <h1 className="text-[#0E1532] text-[26px] font-medium leading-[39px] font-[AirBnB-Medium]">
-            Find your new home on{" "}
-            <span className="text-[#3E8180] font-bold">
-              fresh<span className="font-normal">builds</span>
-            </span>
-            .
+            Find your new home on <span className="text-[#3E8180] font-bold font-[Montserrat]">
+            fresh<span className="font-normal">builds</span>
+            </span>.
           </h1>
           <p className="text-[#0E1532] pt-3 text-base leading-6 tracking-[0.066px] font-[AirBnB-Normal]">
             freshbuilds has the largest inventory of new construction homes that
@@ -25,7 +23,7 @@ export default function TextCard() {
             </button>
           </div>
         </div>
-        <div className="hover:drop-shadow-2xl cursor-pointer">
+        <div className="hover:drop-shadow-2xl grid justify-center lg:justify-normal cursor-pointer">
           <img src={House2} alt="House" className="relative xl:-left-32" />
         </div>
       </div>
